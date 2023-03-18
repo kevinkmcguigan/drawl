@@ -54,7 +54,7 @@ canvas.addEventListener('mouseup', function(event) {
     isDrawing = false;
 
     ctx.beginPath();
-    ctx.fillStyle = "rgba(255, 0, 255, 0.5)";
+    ctx.fillStyle = "rgba(0, 0, 255, 0.5)";
     ctx.arc(lastX, lastY, 25, 0, 2 * Math.PI);
     ctx.fill();
 
